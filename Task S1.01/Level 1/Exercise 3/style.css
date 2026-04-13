@@ -9,27 +9,24 @@ header{
     display: flex;
     padding: 20px;
     justify-content: space-between;
-    gap: 10px;
+    gap: 20px;
     border: 20px solid black;
        
 }
 .logo{
     background: lightcoral;
-    color:black;
     width: 20%;
     padding:10px;
   
 }
 nav{
     background: lightcoral;
-    color:black;
     width: 60%;
     padding:10px;
   
 }
 .social{
     background: lightcoral;
-    color:black;
     width: 20%;
     padding:10px;
    
@@ -37,13 +34,11 @@ nav{
 
 .banner{
     background: yellow;
-    color:black;
     font-size: 30px;
     font-weight: bold;
     margin-left: 20px;
     margin-right: 20px;
     padding: 10px;
-
     border: 20px solid orange;
     outline: 20px solid black;
     margin-bottom: 40px;
@@ -60,8 +55,8 @@ nav{
 
 section{
     background: darkslateblue;
-    display:flex;
-    flex-wrap:wrap;
+    display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     gap: 20px;
     width: 80%;
@@ -69,9 +64,8 @@ section{
     
 }
 
-.article{
+article{
     background: cornflowerblue;
-    color:black;
     width: 46%;
     padding: 10px;
     
@@ -89,7 +83,7 @@ aside{
     display: flex;
     flex-direction: column;
     width: 20%;
-    gap:10px;
+    gap: 10px;
 
 }
 
@@ -103,7 +97,6 @@ aside{
 
 footer{
     background: lightgoldenrodyellow;
-    color:black;
     margin-top: 20px;
     padding: 10px;
     border: 20px solid black;
@@ -136,7 +129,7 @@ footer{
         width: 90%;
     }
 
-    .article {
+    article {
         width: 95%;
     }
 

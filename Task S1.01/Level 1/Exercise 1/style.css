@@ -1,10 +1,8 @@
 body {
     max-width: 1200px;
     background: white;
-    
-            
+           
 }
-
 
 header{
     background: midnightblue;
@@ -13,26 +11,23 @@ header{
     justify-content: space-between;
     gap: 20px;
     border: 20px solid black;
-    
-   
+       
 }
+
 .logo{
     background: lightcoral;
-    color:black;
     width: 20%;
     padding:10px;
   
 }
 nav{
     background: lightcoral;
-    color:black;
     width: 60%;
     padding:10px;
   
 }
 .social{
     background: lightcoral;
-    color:black;
     width: 20%;
     padding:10px;
    
@@ -40,13 +35,11 @@ nav{
 
 .banner{
     background: yellow;
-    color:black;
-    font-size: 30px;
     font-weight: bold;
+    font-size: 30px;
     margin-left: 20px;
     margin-right: 20px;
     padding: 10px;
-
     border: 20px solid orange;
     outline: 20px solid black;
     margin-bottom: 40px;
@@ -58,31 +51,22 @@ nav{
     background: black;
     padding:20px;
     gap:20px;
-    max-width: 1200px;
-    
+       
 }
 
 section{
     background: darkslateblue;
-    text-align: left;
     display:flex;
     flex-wrap:wrap;
     justify-content: space-between;
     gap: 20px;
     width: 80%;
-   
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding: 20px;
+    
 }
 
-
-
-.article{
+article{
     background: cornflowerblue;
-    color:black;
-    text-align: left;
     width: 46%;
     padding: 10px;
     
@@ -92,16 +76,11 @@ section{
     width: 100%;
     padding: 10px;
     
-    
 }
 
 aside{
     background: crimson ;
-    padding-top: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-bottom: 100px;
-
+    padding: 20px;
     display: flex;
     flex-direction: column;
     width: 20%;
@@ -111,26 +90,15 @@ aside{
 
 .ad{
     background: gold;
-    text-align: left;
     justify-content: space-between;
     width: 85%;
     padding: 10px;
-   
-    
+       
 }
 
 footer{
     background: lightgoldenrodyellow;
-    color:black;
-    text-align: left;
     margin-top: 20px;
-    margin-bottom: 10px;
-    margin-left: auto;
-    margin-right: auto;
-
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 10px;
-    
+    padding: 10px;
     border: 20px solid black;
 }
