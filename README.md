@@ -5,4 +5,4 @@ Fer una copia d'un Layout segons imatge que ha de funcionar tant en escriptori (
 - Frontend: HTML i CSS
 
 ## Instal·lació
-1. Clonar el repositori: git clone [Link] (https://github.com/miriamsanc/Tasca-S1.01)
+1. Clonar el repositori: git clone [Link](https://github.com/miriamsanc/Tasca-S1.01)
