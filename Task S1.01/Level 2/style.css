@@ -173,18 +173,69 @@ article{
     min-width: 45%;
     background: whitesmoke;
     color: grey;
-    width: 46%;
     padding: 10px;
     position: relative;
     overflow: hidden;
     text-align: center;
+    display: flex;
+    flex-direction: column;
     
 }
+
+.img-container {
+    position: relative;
+}
+
+.img-container img {
+    width: 100%;
+    display: block;
+    height: 200px;
+    object-fit: cover;
+}
+
+.img-container h4 {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    color: yellow;
+    margin: 0;
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+article img {
+    width: 100%;
+    object-fit: cover;
+    display: block;
+    
+}
+
+article h3 {
+    text-transform: uppercase;
+    background: lightcoral;
+    text-align: left;
+    padding: 10px;
+    margin: 5px 0 0 0;
+    color: white;
+    font-size: 30px;
+    width: 100%;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+article p {
+    column-count: 2;
+    
+
+}
+
+
 .navegacion{
     background: lightgrey;
     width: 100%;
     padding: 10px;
     text-align: center;
+    
     
 }
 
