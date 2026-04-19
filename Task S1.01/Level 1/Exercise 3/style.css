@@ -1,0 +1,179 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 1200px;
+    background: white;
+                
+}
+
+header{
+    background: midnightblue;
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    gap: 20px;
+    border: 20px solid black;
+       
+}
+.logo{
+    background: lightcoral;
+    width: 20%;
+    padding:10px;
+  
+}
+nav{
+    background: lightcoral;
+    width: 60%;
+    padding:10px;
+  
+}
+.social{
+    background: lightcoral;
+    width: 20%;
+    padding:10px;
+   
+}
+
+.banner{
+    background: yellow;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 10px;
+    border: 20px solid orange;
+    outline: 20px solid black;
+    margin-bottom: 40px;
+
+}
+
+.section-aside.wrapper{
+    display: flex;
+    background: black;
+    padding: 20px;
+    gap: 20px;
+    
+}
+
+section{
+    background: darkslateblue;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    flex: 4;
+    padding: 20px;
+    
+}
+
+article{
+    background: cornflowerblue;
+    flex: 1;
+    min-width: 45%;
+    padding: 10px;
+    
+}
+.navegacion{
+    background: cadetblue;
+    width: 100%;
+    padding: 10px;
+    
+}
+
+aside{
+    background: crimson ;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 10px;
+
+}
+
+.ad{
+    background: gold;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px;
+   
+}
+
+footer{
+    background: lightgoldenrodyellow;
+    margin-top: 20px;
+    padding: 10px;
+    border: 20px solid black;
+}
+
+@media screen and (max-width: 600px) {
+
+    header {
+        flex-direction: column;
+    }
+
+    .logo {
+        width: 95%;
+    }
+
+    nav {
+        width: 95%;
+    }
+
+    .social {
+        width: 95%;
+    }
+
+    .section-aside.wrapper {
+        flex-direction: column;
+    }
+
+    article {
+        flex: 0 0 100%;
+    }
+
+    aside {
+        flex-direction: column;
+    }
+
+    .ad {
+        width: 95%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+
+    header {
+        flex-direction: column;
+        align-items: stretch;
+        text-align: left;
+    }
+
+    .logo {
+        width: 100%;
+        padding: 10px;
+    }
+
+    nav {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .social {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .section-aside.wrapper {
+        flex-direction: column;   
+    }
+
+    article {
+        width: 46%;
+    }
+
+    .ad {
+        width: 100%;
+    }
+}
