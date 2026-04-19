@@ -1,0 +1,288 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 1200px;
+    background: white;
+    margin: 0 auto;
+                
+}
+
+header{
+    background: whitesmoke;
+    display: flex;
+    padding: 5px;
+    justify-content: space-between;
+    gap: 5px;
+    border-left: 10px solid white;
+    border-right: 10px solid white;
+    border-top: 0;
+    border-bottom: 0;
+    
+       
+}
+.logo{
+    background: whitesmoke;
+    width: 20%;
+    padding: 10px;
+  
+}
+
+.logo img {
+    width: 75px;
+    height: auto;
+    object-position: center;
+    float: left;
+    margin-left: 4%;
+}
+nav{
+    background: whitesmoke;
+    color: grey;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    width: 60%;
+    text-align: center;
+    
+    padding: 5px;
+  
+}
+.social{
+    background: whitesmoke;
+    width: 20%;
+    justify-content: space-between;
+    padding-top: 25px;
+    text-align: center;
+   
+}
+
+button {
+    background: whitesmoke;
+    color: grey;
+    border: none;
+    cursor: pointer;
+    
+}
+
+button:hover{
+    background-color: lightgrey;
+    border-radius: 8px;
+}
+
+a { 
+    color: inherit;
+    text-decoration: none;
+
+}
+
+
+.btn-facebook {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  background-color: whitesmoke;
+  color: grey;
+  border-radius: 8px;
+  font-size: 18px;
+  transition: 0.3s ease;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.btn-facebook:hover {
+  background-color: #3b5998;
+  transform: scale(1.1);
+}
+
+.btn-twitter {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  background-color: whitesmoke;
+  color: grey;
+  border-radius: 8px;
+  font-size: 18px;
+  transition: 0.3s ease;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.btn-twitter:hover {
+  background-color: #00acee;
+  transform: scale(1.1);
+}
+
+.banner{
+    position: relative;
+    overflow: hidden;
+    
+    border-left: 10px solid white;
+    border-right: 10px solid white;
+    border-top: 0;
+    border-bottom: 10px solid white;
+
+    height: 250px; 
+    background-image: url("../images/header.jpg");
+    background-size: 150%; 
+    background-position: 45% 57%;
+         
+}
+
+.banner p {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgba(240, 128, 128, 0.7);
+    font-size: 30px;
+    width: 80%;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.section-aside.wrapper{
+    display: flex;
+    background: white;
+    gap: 10px;
+    border-left: 10px solid white;
+    border-right: 10px solid white;
+    border-top: 0;
+    border-bottom: 0;
+        
+}
+
+section{
+    background: lightgrey;
+    display: flex;
+    flex-wrap: wrap;
+    flex: 4;
+    justify-content: space-between;
+    gap: 15px; 
+    padding: 10px;
+    background-clip: padding-box;
+        
+}
+
+article{
+    flex: 1;
+    min-width: 45%;
+    background: whitesmoke;
+    color: grey;
+    width: 46%;
+    padding: 10px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    
+}
+.navegacion{
+    background: lightgrey;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    
+}
+
+aside{
+    background: lightgrey;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 10px;
+    background-clip: padding-box;
+
+}
+
+.ad{
+    background: lightgrey;
+    text-align: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px;
+   
+}
+
+footer{
+    background: whitesmoke;
+    color: grey;
+    text-align: center;
+    padding: 5px;
+    border: 10px solid white;
+}
+
+@media screen and (max-width: 600px) {
+
+    header {
+        flex-direction: column;
+    }
+
+    .logo {
+        width: 95%;
+    }
+
+    nav {
+        width: 95%;
+    }
+
+    .social {
+        width: 95%;
+    }
+    
+    .section-aside.wrapper {
+        flex-direction: column;
+    }
+
+    article {
+        flex: 0 0 100%;
+    }
+
+    aside {
+        flex-direction: column;
+    }
+
+    .ad {
+        width: 95%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+
+    header {
+        flex-direction: column;
+        align-items: stretch;
+        text-align: left;
+    }
+
+    .logo {
+        width: 100%;
+        padding: 10px;
+    }
+
+    nav {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .social {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .section-aside.wrapper {
+        flex-direction: column;   
+    }
+
+    article {
+        width: 46%;
+    }
+
+    .ad {
+        width: 100%;
+    }
+}
